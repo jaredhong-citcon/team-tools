@@ -5,6 +5,8 @@ Small tools for the team, mostly for macOS. Each tool has its own folder with a 
 | Tool | What it does |
 |---|---|
 | [drive-upload](drive-upload/) | Right-click any file in Finder to upload it to your Google Drive. Never overwrites, and checks each upload by MD5. |
+| [pdf-tools](pdf-tools/) | Right-click PDF jobs in Finder: make scans searchable (OCR), merge, split, and convert Office files to PDF. |
+| [doc-fontcheck](doc-fontcheck/) | Checks Word, PowerPoint and Excel files for fonts that Pages or Word for Mac will swap, like `Inter SemiBold` from Google Docs. |
 
 ## Get the tools
 
