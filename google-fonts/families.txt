@@ -1,0 +1,19 @@
+# The font families this tool installs: "<folder in github.com/google/fonts>|<family name>".
+# Used by update_fonts.sh (to refresh the bundled files) and Get Latest from Google.command.
+# After changing it, run ./update_fonts.sh so the bundled fonts match.
+ofl/inter|Inter
+ofl/roboto|Roboto
+ofl/opensans|Open Sans
+ofl/lato|Lato
+ofl/montserrat|Montserrat
+ofl/poppins|Poppins
+ofl/notosans|Noto Sans
+ofl/notosanssc|Noto Sans SC
+ofl/sourcesans3|Source Sans 3
+ofl/nunito|Nunito
+ofl/raleway|Raleway
+ofl/worksans|Work Sans
+ofl/dmsans|DM Sans
+ofl/merriweather|Merriweather
+ofl/playfairdisplay|Playfair Display
+ofl/robotomono|Roboto Mono

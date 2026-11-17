@@ -7,6 +7,7 @@ Small tools for the team, mostly for macOS. Each tool has its own folder with a 
 | [drive-upload](drive-upload/) | Right-click any file in Finder to upload it to your Google Drive. Never overwrites, and checks each upload by MD5. |
 | [pdf-tools](pdf-tools/) | Right-click PDF jobs in Finder: make scans searchable (OCR), merge, split, and convert Office files to PDF. |
 | [doc-fontcheck](doc-fontcheck/) | Checks Word, PowerPoint and Excel files for fonts that Pages or Word for Mac will swap, like `Inter SemiBold` from Google Docs. |
+| [google-fonts](google-fonts/) | Double-click to install 16 common Google Fonts families, Inter included. Works offline, because the font files are in the repo. An optional second button gets the latest versions from Google. |
 
 ## Get the tools
 
@@ -26,4 +27,4 @@ Each tool gets its own folder with a `README.md` (what it does, setup, troublesh
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE). The font files in `google-fonts/fonts/` are the exception: each family keeps its own license (SIL Open Font License), in its folder.
