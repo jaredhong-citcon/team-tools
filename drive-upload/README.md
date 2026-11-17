@@ -83,6 +83,7 @@ The first time you upload from Downloads, Documents or Desktop, macOS may ask wh
 - **"rclone not found"**: run `brew install rclone`.
 - **"No rclone remote named gdrive"**: run step 2 again, or set `REMOTE=` in the config file to the name you used.
 - **"… failed"**: open the log (`~/Library/Logs/drive-upload.log`) for the reason.
+- **No notification when a job finishes**: macOS shows these notifications as coming from **Script Editor**. Open **System Settings → Notifications → Script Editor** and turn on **Allow notifications**. If Script Editor isn't listed, the log still records every job.
 - To stop rclone using your Drive: delete the `gdrive` remote with `rclone config`, and remove rclone at <https://myaccount.google.com/permissions>.
 
 ## License

@@ -73,6 +73,7 @@ Use `chi_tra` for Traditional Chinese. `tesseract --list-langs` shows every lang
 
 - **"… not found"**: install the tool the notification names (step 1).
 - **"… failed"**: the log at `~/Library/Logs/pdf-tools.log` gives the reason for each file.
+- **No notification when a job finishes**: macOS shows these notifications as coming from **Script Editor**. Open **System Settings → Notifications → Script Editor** and turn on **Allow notifications**. If Script Editor isn't listed, the log still records every job.
 - **Password-protected PDFs** can't be merged, split or made searchable. Remove the password first, for example in Preview.
 - **Convert to PDF looks different from the original**: LibreOffice swaps fonts it doesn't have. Install the missing fonts, or print to PDF from Word or PowerPoint instead.
 
