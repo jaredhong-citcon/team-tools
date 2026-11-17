@@ -25,6 +25,8 @@ Each tool gets its own folder with a `README.md` (what it does, setup, troublesh
 - No passwords, tokens or keys, in the code or in examples.
 - Test it as a new user would: a clean setup, following only the README.
 
+After pushing, add the tool to the repo description: on GitHub, click the gear next to **About**, or run `gh repo edit --description "..."`. The description lists every tool.
+
 ## License
 
 MIT. See [LICENSE](LICENSE). The font files in `google-fonts/fonts/` are the exception: each family keeps its own license (SIL Open Font License), in its folder.
